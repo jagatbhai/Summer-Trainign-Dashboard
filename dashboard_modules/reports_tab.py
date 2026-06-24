@@ -3,7 +3,7 @@
 import os
 import streamlit as st
 
-from config import REPORT_FOLDER
+REPORT_FOLDER = "Reports"
 
 
 def show_reports_tab():
@@ -114,12 +114,7 @@ def show_reports_tab():
 
     )
 
-    gradecard_folder = (
-
-        #r"C:\Users\Jagat Kumar\ML_Agentic_AI_Training_V2\GradeCards"
-        gradecard_folder = "GradeCards"
-
-    )
+    gradecard_folder = "GradeCards"
 
     if os.path.exists(
 
